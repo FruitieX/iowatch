@@ -3,10 +3,8 @@ iowatch
 
 ![Screenshot](watchface_rd.png)
 
-Minimalistic Android Wear watchface for round and square watches.
-Represents hour and minute pointers as arcs of varying lengths. The watchface supports both burn-in protection and low-bit mode for watches that use these.
+Minimalistic Android Wear watchface inspired by a Google I/O talk.
 
-TODO:
-- Configurable colors, position and size of arcs
+http://i.imgur.com/ELY80tT.png
 
 Suggestions and feature requests are welcome!
