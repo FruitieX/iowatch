@@ -28,7 +28,7 @@ public class WatchFace extends CanvasWatchFaceService {
     static int outerOuterBgColor;
 
     static float thickStroke = 8.0f;
-    static float thinStroke = 4.0f;
+    static float thinStroke = 2.0f;
     static float circleOffs = 24.0f;
 
     static float minHrOverflow = 10.0f;
@@ -215,7 +215,7 @@ public class WatchFace extends CanvasWatchFaceService {
 
             // draw the ticks/dials
             float innerTickRadius = centerX - circleOffs - 14;
-            float outerTickRadius = centerX - circleOffs - 2;
+            float outerTickRadius = centerX - circleOffs - 1;
             for (int tickIndex = 0; tickIndex < 4; tickIndex++) {
                 float tickRot = (float) (tickIndex * Math.PI * 2 / 4);
                 innerX = (float) Math.sin(tickRot) * innerTickRadius;
