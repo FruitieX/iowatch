@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">iowatch</string>
+    <string name="config_name">iowatch Config</string>
+
+    <!-- Default values -->
+    <integer name="LinesR">152</integer>
+    <integer name="LinesG">164</integer>
+    <integer name="LinesB">163</integer>
+
+    <integer name="SecondHandR">170</integer>
+    <integer name="SecondHandG">91</integer>
+    <integer name="SecondHandB">52</integer>
+
+    <integer name="InnerBGR">30</integer>
+    <integer name="InnerBGG">35</integer>
+    <integer name="InnerBGB">39</integer>
+
+    <integer name="OuterBGR">34</integer>
+    <integer name="OuterBGG">41</integer>
+    <integer name="OuterBGB">47</integer>
+
+    <integer name="SquareBGR">40</integer>
+    <integer name="SquareBGG">49</integer>
+    <integer name="SquareBGB">56</integer>
+
+    <integer name="EnableTicks">1</integer>
 </resources>
